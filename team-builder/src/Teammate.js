@@ -8,9 +8,9 @@ const Teammate = props => {
           {props.teammateList.map(teammate => {
               return (
                   <div className ="teammate" key={teammate.id}>
-                      <h2>{teammate.name}</h2>
-                      <h6>{teammate.role}</h6>
-                      <p>{teammate.email}</p>
+                      <h3>{teammate.name}</h3>
+                      <h5>Role: {teammate.role}</h5>
+                      <h6>Email: {teammate.email}</h6>
                   </div>
               );
           })}
