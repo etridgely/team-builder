@@ -110,3 +110,7 @@ button:active {
           box-shadow: inset 0px 0px 5px #ff65a3;
    outline: none;
 }
+
+footer p {
+  color: white;
+}
